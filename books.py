@@ -1,3 +1,8 @@
+# To run FastAPI app use uvicorn book:app --reload --port 5000
+# To create virtual env for fast api use >> python -m venv {foldername}
+# >> install uvicorn[standard] and fastapi
+
+
 from fastapi import Body, FastAPI
 
 app = FastAPI()
